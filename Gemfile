@@ -56,3 +56,24 @@ gem 'jquery-rails'
 gem 'devise'
 
 gem 'bootstrap_form'
+
+#testing framework
+gem 'rspec-rails' 
+
+#this is for adding sample data
+gem "factory_bot_rails"
+
+# required when we test requests and responses with the requests specs
+gem 'rails-controller-testing'
+
+#required to support headless drivers. poltergeist is a headless driver.
+gem 'headless'
+
+#this is for simulating a user's interaction with the app
+#gem 'capybara'
+
+#this gives the JavaScript support for the tests.
+gem 'poltergeist'
+
+# this is required to clean the test database after tests where JS was executed
+gem 'database_cleaner'
